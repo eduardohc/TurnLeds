@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bTurnLeds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="lanzarLeds"
+        android:paddingBottom="8dp"
+        android:text="@string/bTurnLeds" />
+
+    <Button
+        android:id="@+id/bBluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="lanzarBluetooth"
+        android:paddingBottom="8dp"
+        android:text="@string/bBluetooth" />
+
+    <Button
+        android:id="@+id/bExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="lanzarSalir"
+        android:paddingBottom="8dp"
+        android:text="@string/bSalir" />
+
+</LinearLayout>

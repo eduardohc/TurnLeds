@@ -1,0 +1,21 @@
+<resources>
+	
+    <!-- String for main xml file-->
+    <string name="bTurnLeds">Turn LEds</string>
+    <string name="bBluetooth">Conect to Bluetooth</string>
+    <string name="bSalir">Exit</string>
+    
+    <!-- String for turnleds xml file-->
+    <string name="app_name">turnOnLeds</string>
+    <string name="tvLed1">Led 1</string>
+    <string name="tvLed2">Led 2</string>
+    
+     <!-- String for bluetootconection xml file-->
+    <string name="statusLed">Status: </string>
+    <string name="buttOn">Turn On</string>
+    <string name="buttOff">Turn Off</string>
+    <string name="paired">Paired devices</string>
+    <string name="search">Search new devices</string>
+     
+
+</resources>
